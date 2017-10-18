@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="samples.SampleTest" time="0.559" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="samples.SampleTest" time="0.684" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ylan\AppData\Local\Temp\surefire4925259671823832144\surefirebooter8392167798537091198.jar C:\Users\ylan\AppData\Local\Temp\surefire4925259671823832144 2017-10-18T13-55-13_879-jvmRun1 surefire8073701710501948299tmp surefire_0363294965708427146tmp"/>
+    <property name="sun.java.command" value="C:\Users\ylan\AppData\Local\Temp\surefire2691659538061714787\surefirebooter1378071740715941131.jar C:\Users\ylan\AppData\Local\Temp\surefire2691659538061714787 2017-10-18T14-32-44_642-jvmRun1 surefire488630297123042741tmp surefire_02503959237767877982tmp"/>
     <property name="surefire.test.class.path" value="D:\testng-maven\target\test-classes;D:\testng-maven\target\classes;C:\Users\ylan\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\ylan\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\ylan\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\ylan\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\ylan\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ylan"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ylan\AppData\Local\Temp\surefire4925259671823832144\surefirebooter8392167798537091198.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ylan\AppData\Local\Temp\surefire2691659538061714787\surefirebooter1378071740715941131.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,13 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="first" classname="samples.SampleTest" time="0.025">
-    <failure message="expected [1] but found [2]" type="java.lang.AssertionError">java.lang.AssertionError: expected [1] but found [2]
-	at samples.SampleTest.first(SampleTest.java:15)
-</failure>
-    <system-out><![CDATA[1
-]]></system-out>
-  </testcase>
+  <testcase name="first" classname="samples.SampleTest" time="0.03"/>
   <testcase name="second" classname="samples.SampleTest" time="0"/>
-  <testcase name="third" classname="samples.SampleTest" time="0.001"/>
+  <testcase name="third" classname="samples.SampleTest" time="0"/>
 </testsuite>

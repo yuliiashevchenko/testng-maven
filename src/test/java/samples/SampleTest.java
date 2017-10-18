@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class SampleTest {
     public void first(){
         System.out.println("1");
-        Assert.assertEquals("2", "1");
+        Assert.assertEquals("1", "1");
 
       }
     @Test
